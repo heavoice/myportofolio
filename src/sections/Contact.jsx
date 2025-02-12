@@ -69,11 +69,11 @@ const Contact = () => {
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" />
+        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 h-screen sm:h-[112.5vh]" />
 
-        <div className="contact-container">
+        <div className="contact-container sm:text-lg text-sm">
           <h3 className="head-text">Let's talk</h3>
-          <p className="text-lg text-white-600 mt-3">
+          <p className="text-white-600 mt-3">
             Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to
             life, I’m here to help.
           </p>
