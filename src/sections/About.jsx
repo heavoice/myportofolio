@@ -24,8 +24,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I'm Heavoice</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+                I am Muhammad Al-Fadhillah Wafiq, a sixth-semester student majoring in Informatics Engineering at the
+                State University of Surabaya.
               </p>
             </div>
           </div>
@@ -37,8 +37,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
-                applications
+                I am experienced in using various libraries and frameworks such as React.js, Node.js, Express.js,
+                ApexCharts.js, Framer Motion (JavaScript), Flutter (Dart), and Pygame (Python), along with databases
+                like Firebase, Supabase, and PostgreSQL.
               </p>
             </div>
           </div>
@@ -60,8 +61,11 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-headtext">Based</p>
+              <p className="grid-subtext">
+                I am based in Surabaya, Indonesia, and open to various IT-related job opportunities, both locally and
+                remotely.
+              </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -71,10 +75,11 @@ const About = () => {
           <div className="grid-container">
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Coding is not only my passion but also an essential part of my life goals. I aspire to become proficient
+                in multiple programming languages, and while I often utilize AI for assistance, I see it as a valuable
+                tool in my continuous learning journey.
               </p>
             </div>
           </div>
@@ -91,9 +96,7 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
-                  muhwafiq1802@gmail.com
-                </p>
+                <p className="lg:text-2xl md:text-xl font-medium  text-white">muhwafiq1802@gmail.com</p>
               </div>
             </div>
           </div>

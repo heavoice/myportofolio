@@ -116,6 +116,80 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'Dashboard Cianjur',
+    desc: 'An interactive web platform.',
+    subdesc:
+      'Designed to deliver comprehensive information about the Cianjur area, covering statistical data, important locations, and tools for regional planning and development. It features statistical data, important geographic locations, and integrated tools to support regional management, development planning, and public accessibility to local insights.',
+    href: 'https://dashboard-cianjur.vercel.app/auth',
+    texture: '/textures/project/project3.png',
+    logo: '/assets/sugihmukti.png',
+    logoStyle: {
+      backgroundColor: '#142A1E',
+      border: '0.2px solid #1D3F36',
+      boxShadow: '0px 0px 60px 0px #30AA6C4D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+      {
+        id: 4,
+        name: 'Node.js',
+        path: '/assets/nodejs.svg',
+      },
+      {
+        id: 5,
+        name: 'Express.js',
+        path: '/assets/expressjs.svg',
+      },
+      {
+        id: 6,
+        name: 'PostgreSQL',
+        path: '/assets/postgresql.svg',
+      },
+    ],
+  },
+  {
+    title: 'Arcatime',
+    desc: ' Arcade battle game.',
+    subdesc:
+      'Arcatime is an arcade battle game built with Pygame, a Python-based game development library. The gameplay centers around two characters fighting using both melee and ranged attacks, offering dynamic and fast-paced action.',
+    href: 'https://github.com/heavoice/Arcatime',
+    texture: '/textures/project/project4.png',
+    logo: '',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: '/assets/python.svg',
+      },
+      {
+        id: 2,
+        name: 'Pygame',
+        path: 'assets/pygame.png',
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

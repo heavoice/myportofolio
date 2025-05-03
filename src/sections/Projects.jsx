@@ -31,9 +31,9 @@ const Projects = () => {
 
   return (
     <section className="c-space my-20" id="project">
-      <p className="head-text">My Selected Work</p>
+      <p className="text-black sm:text-4xl text-3xl font-semibold">My Selected Work</p>
 
-      <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
+      <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full bg-black rounded-lg">
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl shadow-black-200">
           <div className="absolute top-0 right-0">
             <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
@@ -43,7 +43,7 @@ const Projects = () => {
             <img className="w-10 h-10 shadow-sm" src={currentProject.logo} alt="logo" />
           </div>
 
-          <div className="flex flex-col gap-5 text-white-600 my-5">
+          <div className="flex flex-col gap-5 text-white my-5">
             <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
 
             <p className="animatedText">{currentProject.desc}</p>
@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
 
             <a
-              className="flex items-center gap-2 cursor-pointer text-white-600"
+              className="flex items-center gap-2 cursor-pointer text-white"
               href={currentProject.href}
               target="_blank"
               rel="noreferrer">
@@ -80,7 +80,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+        <div className="bg-black p-2 h-96 md:h-full rounded-lg">
           <Canvas>
             <ambientLight intensity={Math.PI} />
             <directionalLight position={[10, 10, 5]} />
